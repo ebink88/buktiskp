@@ -1,15 +1,15 @@
 {
-  "name": "SIBUKTI SKP",
-  "short_name": "SIBUKTI SKP",
-  "description": "Aplikasi pengelolaan bukti dukung Sasaran Kinerja Pegawai (SKP)",
+  "name": "BSKP - Bukti SKP Harian",
+  "short_name": "BSKP",
+  "description": "Sistem Informasi Bukti Dukung SKP Harian - catat uraian tugas, upload foto bukti, cetak rekap bulanan",
   "lang": "id",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#1565C0",
-  "theme_color": "#1565C0",
+  "background_color": "#025339",
+  "theme_color": "#0d8b4d",
   "categories": ["productivity", "utilities"],
   "icons": [
     {

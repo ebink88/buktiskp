@@ -1,10 +1,10 @@
-/* Service Worker - SIBUKTI SKP
+/* Service Worker - BSKP Bukti SKP Harian
  * Strategi:
  * - Cache app shell (halaman, manifest, ikon) agar instan saat dibuka lagi.
  * - Konten iframe Google Apps Script tetap lewat jaringan (cross-origin).
  * - Saat offline, halaman shell tetap tampil dari cache.
  */
-const CACHE_NAME = 'sibukti-skp-v1';
+const CACHE_NAME = 'bskp-v3';
 const ASSETS = [
   './',
   './index.html',
