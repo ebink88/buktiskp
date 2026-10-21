@@ -4,20 +4,20 @@
  * - Konten iframe Google Apps Script tetap lewat jaringan (cross-origin).
  * - Saat offline, halaman shell tetap tampil dari cache.
  */
-const CACHE_NAME = 'bskp-v4';
+const CACHE_NAME = 'bskp-v5';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './favicon.ico',
-  './icons/favicon-16.png',
-  './icons/favicon-32.png',
-  './icons/favicon-48.png',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/maskable-192.png',
-  './icons/maskable-512.png',
-  './icons/apple-touch-icon.png'
+  './favicon-16.png',
+  './favicon-32.png',
+  './favicon-48.png',
+  './icon-192.png',
+  './icon-512.png',
+  './maskable-192.png',
+  './maskable-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (event) => {
