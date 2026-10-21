@@ -4,7 +4,7 @@
  * - Konten iframe Google Apps Script tetap lewat jaringan (cross-origin).
  * - Saat offline, halaman shell tetap tampil dari cache.
  */
-const CACHE_NAME = 'bskp-v3';
+const CACHE_NAME = 'bskp-v4';
 const ASSETS = [
   './',
   './index.html',
